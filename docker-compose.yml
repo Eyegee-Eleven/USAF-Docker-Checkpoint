@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  epic_server:
+    build: USAF-Databases-Checkpoint/
+    depends_on:
+      - 'database'
+    ports: 
+      - '3001:3001'
+    
+
+  database:
+    image: postgres:13.1-alpine
+    

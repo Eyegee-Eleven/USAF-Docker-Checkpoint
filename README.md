@@ -15,7 +15,7 @@ Endpoint  | Contents
 Clone 
 RUN--->
 ```bash
-docker-compose exec node_app knex:migrate
+docker-compose up
 ```
 
 
